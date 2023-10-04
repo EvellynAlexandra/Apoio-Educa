@@ -1,1 +1,6 @@
-# DESAFIO-2
+# Integrantes
+
+- Lucas Santana
+- Evellyn Alexandra
+- Italo Lira
+- 
