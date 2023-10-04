@@ -4,3 +4,8 @@
 - Evellyn Alexandra
 - Italo Lira
 - 
+
+# Tecnologias
+
+
+# Funcionalidades
