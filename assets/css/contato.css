@@ -1,0 +1,71 @@
+#contact{
+    height: 100%;
+    padding-top: 70px;
+    justify-content: center;
+
+}
+
+.locationCard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.locationCard h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-top: 3px;
+}
+
+.locationCard p {
+    margin-bottom: 10px;
+    padding-top: 3px;
+}
+
+.locationCard iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+.socialLinks {
+    list-style: none;
+    padding: 0;
+}
+
+.socialLinks li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.socialLinks a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+}
+
+.justifyContent{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+#btnTopo {
+    display: flex;
+    justify-content: center;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    color: #0f394c;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+}

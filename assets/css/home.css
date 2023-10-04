@@ -1,0 +1,74 @@
+#home {
+    padding-bottom: 10px;
+}
+
+.Home {
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btnHome{
+    border: 1px solid lightblue;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.249);
+    font-size: 1.1em;
+    margin-top: 50px;
+    cursor: pointer;
+    padding: 10px; 
+    width: 200px; 
+    background-color: blue; 
+    color: white; 
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+
+.btnHome:hover{
+    transform: scale(1.02);
+}
+
+#imgHome {
+    height: 550px;
+    padding-right: 50px;
+}
+
+.textHome {
+    padding-left: 50px;
+}
+
+.Home h1 {
+    margin-top: 150px;
+    font-size: 30px;
+    color: #0f394c;
+
+}
+
+.Home h2 {
+    padding-top: 7px;
+    color: #1c698c;
+    font-size: 25px;
+}
+
+
+.members {
+    padding-right: 200px;
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.membersUl li {
+    list-style-type: none;
+    padding-left: 20px; 
+    position: relative; 
+    font-size: 20px;
+}
+
+.membersUl li::before {
+    content: "\2022"; 
+    color: #1c698c; 
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}

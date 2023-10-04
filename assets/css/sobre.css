@@ -1,0 +1,132 @@
+#container {
+    background-color: rgb(206, 241, 230);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+#peopleImg {
+
+    height: 550px;
+
+}
+
+#itensDiv {
+    margin-top: 60px;
+}
+
+.iconImg {
+    cursor: pointer;
+    height: 30px;
+}
+
+.project h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0f394c;
+    /* margin-bottom: 15px; */
+}
+
+.iconBox {
+    margin-top: 40px;
+}
+
+.icon {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #49b5e7;
+    font-size: 32px;
+}
+
+
+.iconBox:hover .icon {
+    background: #49b5e7;
+    border-color: #49b5e7;
+    color: #fff;
+}
+
+.iconBox .title {
+    margin-left: 85px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #343a40;
+}
+
+.project .iconBox .description {
+    margin-left: 85px;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+
+.equipeContainer{
+    height: 700px;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: lightblue;
+}
+
+.containerDisplay{
+    gap: 40px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+}
+
+.equipeCard{
+    transition: transform 0.5s;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.284);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    width: 200px;
+    padding: 20px;
+    background-color: white;
+}
+
+.equipeCard:hover{
+    transform: scale(1.05);
+}
+
+.equipeTitulo{
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.iconContainer{
+    gap: 15px;
+    display: flex;
+}
+
+.iconsImg{
+    cursor: pointer;
+    margin-top: 20px;
+    width: 22px;
+    height: 22px;
+}
+
+.foto{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.descricao{
+    width: 200px;
+}
+
+.nome{
+    text-align: center;
+    margin-bottom: 10px;
+}
