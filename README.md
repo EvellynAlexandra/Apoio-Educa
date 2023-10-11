@@ -1,11 +1,15 @@
-# Integrantes
+# TECNOLOGIAS UTILIZADAS NO PROJETO
+- HTML;
+- CSS
+- JS;
+- PYTHON.
 
+# FUNCIONALIDADES
+
+# COLABORADORES
 - Lucas Santana
 - Evellyn Alexandra
 - Italo Lira
-- 
-
-# Tecnologias
-
-
-# Funcionalidades
+- João Lucas
+- Evellyn Alexandra
+- Giovanna Lucia
