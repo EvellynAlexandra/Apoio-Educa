@@ -3,6 +3,7 @@
     padding-top: 70px;
     justify-content: center;
 
+
 }
 
 .locationCard {
@@ -13,7 +14,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     margin: 0 auto;
-    padding-top: 30px;
+    padding-top: 30px;  
 }
 
 .locationCard h2 {
@@ -49,7 +50,7 @@
     font-size: 24px;
 }
 
-.justifyContent{
+.justifyContentLinks{
     display: flex;
     justify-content: center;
     padding-top: 20px;
@@ -58,7 +59,7 @@
 
 #btnTopo {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     bottom: 20px;
     right: 20px;
     background-color: #fff;
@@ -67,5 +68,6 @@
     padding: 10px 15px;
     cursor: pointer;
     font-size: 18px;
-    text-decoration: none;
+    text-decoration: none; 
+
 }

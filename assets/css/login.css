@@ -1,0 +1,69 @@
+#container {
+    background-color: rgb(206, 241, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+#loginBox {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0f394c;
+}
+
+.iconBox {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.icon {
+    width: 64px;
+    height: 64px;
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #49b5e7;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconBox:hover .icon {
+    background: #49b5e7;
+    border-color: #49b5e7;
+    color: #fff;
+}
+
+.iconBox input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #49b5e7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0f394c;
+}

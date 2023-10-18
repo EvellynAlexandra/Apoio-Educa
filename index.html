@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/contato.css">
     <link rel="stylesheet" href="assets/css/sobre.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <script src="js/script.js"></script>
     <title>Apoio Educa</title>
     <link rel="shortcut icon" href="assets/img/favicon.webp">
 </head>
@@ -27,7 +28,7 @@
                 <li><a href="#project">PROJETO</a></li>
                 <li><a href="#team">SOBRE NÓS</a></li>
                 <li> <a href="#contact">CONTATO E LOCALIZAÇÃO</a></li>
-                <li> <a href="#">ENTRAR</a></li>
+                <li> <a href="html/login.html">ENTRAR</a></li>
             </ul>
         </nav>
     </header>
@@ -173,6 +174,21 @@
                         <a href="" class="linkEquipe"></a>
                     </nav>
                 </div>
+                <div class="equipeCard">
+                    <figure class="fotoContainer"><img class="foto" src="assets/img/icon-pessoa.jpg" alt=""></figure>
+                    <article class="descricao">
+                        <h2 class="nome">Tayná Brito</h2>
+                        <p>Back-End e Front-End</p>
+                    </article>
+                    <nav class="navEquipe">
+                        <figure class="iconContainer"><img class="iconsImg" src="assets/img/icons/github-icon.png"
+                                alt="github">
+                            <img class="iconsImg" src="assets/img/icons/linkedin-icon.png" alt="facebook">
+                            <img class="iconsImg" src="assets/img/icons/instagram-icon.png" alt="instagram">
+                        </figure>
+                        <a href="" class="linkEquipe"></a>
+                    </nav>
+                </div>
             </section>
         </section>
     </main>
@@ -182,9 +198,9 @@
                 <h2>Localização</h2>
                 <p>Nosso escritório está localizado na seguinte área:</p>
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.4875693408135!2d-34.90581892578896!3d-8.051644680428348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18e1236c4cc5%3A0xcf30335f63037230!2sUNINASSAU%20Gra%C3%A7as%20-%20Bloco%20A!5e0!3m2!1spt-BR!2sbr!4v1696275348234!5m2!1spt-BR!2sbr"></iframe>
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.4875174561616!2d-34.90736387304686!3d-8.051649999999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18e1236c4cc5%3A0xcf30335f63037230!2sUNINASSAU%20Gra%C3%A7as%20-%20Bloco%20A!5e0!3m2!1spt-BR!2sbr!4v1697608683351!5m2!1spt-BR!2sbr"></iframe>
             </div>
-            <div class="justifyContent">
+            <div class="justifyContentLinks">
                 <ul class="socialLinks">
                     <li><a href="#home" target="_blank"><i class="fab fa-facebook"></i></a>
                     </li>
@@ -194,9 +210,8 @@
                     <li><a href="mailto:apoiaeduca0@gmail.com"><i class="far fa-envelope"></i></a></li>
                 </ul>
             </div>
-            <div id="topo"><a id="btnTopo" href="#home">Voltar ao Topo</a></div>
+            <div id="btnTopo" onclick="scrollToTop()">Voltar ao Topo</div>
         </section>
     </footer>
 </body>
-
 </html>
