@@ -13,3 +13,4 @@
 - João Lucas
 - Evellyn Alexandra
 - Giovanna Lucia
+- Tayná Brito

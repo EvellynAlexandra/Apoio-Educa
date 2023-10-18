@@ -67,7 +67,7 @@
 
 
 .equipeContainer{
-    /* height: 700px; */
+    
     text-align: center;
     justify-content: center;
     padding: 40px;
@@ -75,10 +75,11 @@
 }
 
 .containerDisplay{
-    gap: 40px;
+
+    gap: 50px;
     justify-content: center;
     display: grid;
-    grid-template-columns: 250px 250px 250px;
+    grid-template-columns: repeat(4, 150px);
 }
 
 .equipeCard{
@@ -89,8 +90,8 @@
     align-items: center;
     justify-content: center;
     border-radius: 15px;
-    width: 200px;
-    padding: 20px;
+    width: 150px;
+    padding: 15px;
     background-color: white;
 }
 
@@ -117,12 +118,13 @@
 
 .foto{
     border-radius: 50%;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px; 
 }
 
 .descricao{
-    width: 200px;
+    
+    width: 120px; 
 }
 
 .nome{
